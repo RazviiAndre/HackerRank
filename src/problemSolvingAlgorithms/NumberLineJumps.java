@@ -10,17 +10,23 @@ package problemSolvingAlgorithms;
 
 public class NumberLineJumps {
     public static void main(String[] args) {
-
+        System.out.println(kangaroo(0,2,5,3));
     }
 
     static String kangaroo(int x1, int v1, int x2, int v2) {
-        if(x1 > x2 && v1 > v2){
-            return "NO";
-        } else if(x1 < x2 && v1 < v2){
-            return "YES";
+       // x1 starting point first kangaroo
+      // x2 starting point second kangaroo
+        // v1 jump distance rate first kangaroo
+        // v2 jump distance rate second kangaroo
+
+        String response = "NO";
+        boolean canCatchUp = (v2 < v1);
+        if(canCatchUp) {
+            boolean willIntersectOnLand = (x1 - x2) % (v2 - v1) == 0;
+            if(willIntersectOnLand) {
+                response = "YES";
+            }
         }
-
-
-        return "";
+        return response;
     }
 }

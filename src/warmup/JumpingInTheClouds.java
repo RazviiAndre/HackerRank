@@ -10,6 +10,8 @@ package warmup;
 
 import java.util.Scanner;
 
+// TODO: 23-Nov-20 jumping in the clouds 5/9 test case 
+
 public class JumpingInTheClouds {
     public static void main(String[] args) {
         int[] array = new int[]{0 ,0 ,1, 0,0,1 ,0};

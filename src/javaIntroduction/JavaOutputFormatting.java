@@ -6,13 +6,6 @@
  # Linkedin Profile : https://www.linkedin.com/in/lungu-razvan-andre-4858a417b
  #############################################################################*/
 
-/*##############################################################################
- # Date : 11/20/20, 12:13 PM
- # Author : Razvii Andre
- # HackerRank Profile : https://www.hackerrank.com/Razvii
- # Github Profile : https://github.com/razviiandre
- # Linkedin Profile : https://www.linkedin.com/in/lungu-razvan-andre-4858a417b
- #############################################################################*/
 
 package javaIntroduction;
 
